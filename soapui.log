@@ -1,0 +1,171 @@
+2022-07-18 20:42:35,793 WARN  [SoapUI] Missing folder [D:\swtools\sts-wsp\springboot-sonar-3\ext] for external libraries
+2022-07-18 20:42:35,920 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\wiliy\soapui-settings.xml]
+2022-07-18 20:42:37,199 INFO  [PluginManager] Adding plugin from [C:\Users\wiliy\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+2022-07-18 20:42:37,199 INFO  [PluginManager] Adding plugin from [C:\Users\wiliy\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+2022-07-18 20:42:37,738 WARN  [PluginManager] Could not load plugin from file [C:\Users\wiliy\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.mqttsupport.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2022-07-18 20:42:37,740 INFO  [PluginManager] Adding plugin from [C:\Users\wiliy\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+2022-07-18 20:42:37,818 WARN  [PluginManager] Could not load plugin from file [C:\Users\wiliy\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.swagger.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+2022-07-18 20:42:37,820 INFO  [PluginManager] Adding plugin from [C:\Users\wiliy\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+2022-07-18 20:42:38,147 WARN  [PluginManager] Could not load plugin from file [C:\Users\wiliy\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.postman.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 12 more
+2022-07-18 20:42:38,172 WARN  [PluginManager] Could not load plugin from file [C:\Users\wiliy\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.ready.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2022-07-18 20:42:38,172 INFO  [PluginManager] Adding plugin from [C:\Users\wiliy\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+2022-07-18 20:42:38,453 WARN  [PluginManager] Could not load plugin from file [C:\Users\wiliy\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+com.eviware.soapui.plugins.InvalidPluginException: Error loading plugin class com.smartbear.plugins.swaggerhub.PluginConfig
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:114)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:54)
+	at com.eviware.soapui.plugins.PluginManager.doInstallPlugin(PluginManager.java:141)
+	at com.eviware.soapui.plugins.PluginManager.access$600(PluginManager.java:43)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.computeSequentially(PluginManager.java:420)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:377)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:382)
+	at com.eviware.soapui.plugins.PluginManager$LoadPluginsTask.compute(PluginManager.java:365)
+	at java.base/java.util.concurrent.RecursiveTask.exec(RecursiveTask.java:94)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+Caused by: org.reflections.ReflectionsException: could not get type for name com.eviware.soapui.plugins.auto.PluginSubReport
+	at org.reflections.ReflectionUtils.forName(ReflectionUtils.java:378)
+	at org.reflections.ReflectionUtils.forNames(ReflectionUtils.java:387)
+	at org.reflections.Reflections.getTypesAnnotatedWith(Reflections.java:351)
+	at com.eviware.soapui.plugins.LoaderBase.loadAutoFactories(LoaderBase.java:108)
+	at com.eviware.soapui.plugins.LoaderBase.loadFactories(LoaderBase.java:80)
+	at com.eviware.soapui.plugins.PluginLoader.loadPluginFactories(PluginLoader.java:141)
+	at com.eviware.soapui.plugins.PluginLoader.loadPlugin(PluginLoader.java:104)
+	... 13 more
+2022-07-18 20:42:38,453 INFO  [PluginManager] 5 plugins loaded in 1254 ms
+2022-07-18 20:42:38,453 INFO  [DefaultSoapUICore] All plugins loaded
+2022-07-18 20:42:39,256 INFO  [SoapUI] File [D:\swtools\sts-wsp\springboot-sonar-3\src\test\resources\REST-Project-1-soapui-project] does not exist, trying URL instead
+2022-07-18 20:42:39,256 ERROR [SoapUI] An error occurred [no protocol: src/test/resources/REST-Project-1-soapui-project], see error log for details
+2022-07-18 20:42:39,256 ERROR [errorlog] java.net.MalformedURLException: no protocol: src/test/resources/REST-Project-1-soapui-project
+java.net.MalformedURLException: no protocol: src/test/resources/REST-Project-1-soapui-project
+	at java.base/java.net.URL.<init>(URL.java:645)
+	at java.base/java.net.URL.<init>(URL.java:541)
+	at java.base/java.net.URL.<init>(URL.java:488)
+	at com.eviware.soapui.impl.wsdl.WsdlProject.<init>(WsdlProject.java:227)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:41)
+	at com.eviware.soapui.impl.wsdl.WsdlProjectFactory.createNew(WsdlProjectFactory.java:28)
+	at com.eviware.soapui.tools.SoapUITestCaseRunner.runRunner(SoapUITestCaseRunner.java:349)
+	at com.eviware.soapui.tools.AbstractSoapUIRunner.run(AbstractSoapUIRunner.java:202)
+	at com.eviware.soapui.maven2.TestMojo.execute(TestMojo.java:114)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:210)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:156)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:148)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:305)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:192)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:105)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:957)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:289)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:193)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)
+2022-07-18 20:42:39,426 WARN  [Tools] Could not delete temporary directory C:\Users\wiliy\AppData\Local\Temp\0b107855-bfe0-4492-899b-aac2901ebc06
+2022-07-18 20:42:39,426 WARN  [Tools] Could not delete temporary directory C:\Users\wiliy\AppData\Local\Temp\e1045f38-1f7b-405f-9070-376f11f63c0f
+2022-07-18 20:42:39,426 WARN  [Tools] Could not delete temporary directory C:\Users\wiliy\AppData\Local\Temp\09ee0e1c-6624-4f7f-81c5-0697d097a071
+2022-07-18 20:42:39,426 WARN  [Tools] Could not delete temporary directory C:\Users\wiliy\AppData\Local\Temp\3e3d25b7-da35-474e-8d43-6589bfa20192
